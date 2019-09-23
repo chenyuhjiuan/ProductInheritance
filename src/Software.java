@@ -13,6 +13,8 @@ public class Software extends Product {
 
         //will call the public or protected fields and methods in parent Product
         Software sobj= new Software();
+        System.out.println("from obj.programmer"+sobj.programmer);
+        System.out.println("from obj.getProgrammer()"+sobj.getProgrammer());
         System.out.println("toString method from Product: "+sobj.toString());
         System.out.println("getFormattedPrice method from Product: "+sobj.getFormattedPrice(10.0));
         System.out.println("getCount method from Product"+sobj.getCount());
